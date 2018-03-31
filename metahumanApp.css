@@ -1,0 +1,96 @@
+.proImg{
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  margin-left: 8px;
+}
+.flame{
+  border: solid 1px;
+  height: 340px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #52145C;
+}
+p{
+  margin-left: 20px;
+  font-size: 20px;
+  color: white;
+}
+.row{
+  margin-top: 20px;
+  width: 100%:
+}
+.flame{
+  width: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* div{
+  border: solid 1px black;
+}  */
+body{
+  background-color: skyblue;
+  background-image: url("http://www.wallpaperskid.com/wallpaper-images/8/desktop-backgrounds-blue-technology-XMZ05w.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.firstN, .lastN, .uploading{
+  text-align: center;
+  border: transparent;
+  border-bottom: solid 1px black;
+  width: 200px;
+  height: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: transparent;
+}
+.modalS{
+  color: black;
+  margin-top: 20px;
+  background-color: transparent;
+  border: solid 1px white;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+.modalS:hover{
+  background-color: #7A1F3D;
+}
+.range{
+  margin-top: 20px;
+  width: 160px;
+}
+#range{
+  font-size: 30px;
+  text-align: center;
+  width: 250px;
+}
+input:focus { 
+    outline: none;
+}
+.uploading{
+  margin-bottom: 20px;
+}
+.page{
+  border: solid 1px black;
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  margin-top: 10%;
+}
+.metaImg{
+  width: 500px;
+  height: 400px;
+}
+.metaType{
+  width: 200px;
+  margin-top: 20px;
+}
+.gender{
+  width: 200px;
+  margin-top: 20px;
+}
+.lvl{
+  margin-top: 20px;
+}

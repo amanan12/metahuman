@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Metahuman App</title>
+	<link rel="stylesheet" type="text/css" href="metahumanApp.css">
+</head>
+<body onload="get()">
+
+    <center>
+      <button class="modalS">Add A New Hero/Villain</button>
+    </center>
+    
+    <div class="row">
+      
+    </div>
+    
+    <div class="container">
+      
+          <!-- Modal Starts -->
+
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> 
+                  <center>
+                    <h2 class="modal-title" id="myModalLabel">Add A New Metahuman.</h2>
+                  </center> 
+                </div>
+
+                <div class="modal-body">
+
+                  <center>
+                    
+                    <input class="firstN" type="text" placeholder="First Name"><br>
+                    <input class="lastN" type="text" placeholder="Last Name"><br>
+                    <select class="metaType form-control" ></select>
+                    <select class="gender form-control" ></select>
+                    
+                    <input class="uploading" type="text" placeholder="Img URL" /><br>
+                    <img class="metaImg" src="" /><br>
+                    
+                    <label class="lvl" for="range">Threat Level</label>
+                    <input class="valu" type="range" min="0" max="10" value="0" step="1" onchange="showValue(this.value)" />
+                    <input id="range" type="text" />
+
+                  </center>
+
+                </div>
+
+                <div class="modal-footer">
+                  <button id="btn1" class="btn btn-primary ">Add</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Ends -->
+
+    </div>
+
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>    
+	<script src="metahumanApp.js"></script>
+
+</body>
+</html>
